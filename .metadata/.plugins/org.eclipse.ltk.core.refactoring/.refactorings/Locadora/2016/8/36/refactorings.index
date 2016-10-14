@@ -1,0 +1,8 @@
+1472666488441	Extract method 'getAmount'
+1472666761964	Extract method 'getFrequentRenterPoints'
+1472667334454	Move method 'getFrequentRenterPoints'
+1472667485505	Move method 'getAmount'
+1472667633600	Move method 'getAmount'
+1472667905794	Move method 'getFrequentRenterPoints'
+1472671680795	Inline local variable 'thisAmount'
+1472671775520	Inline local variable 'thisAmount'

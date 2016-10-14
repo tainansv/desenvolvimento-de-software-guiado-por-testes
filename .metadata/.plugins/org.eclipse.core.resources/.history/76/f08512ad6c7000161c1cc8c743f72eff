@@ -1,0 +1,21 @@
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+public class Armazenamento {
+
+	String _caminho = "pontos.txt";
+
+	public void guardar(String usuario, String tipo, int pontos) throws IOException {
+		FileWriter arquivo = new FileWriter(_caminho);
+		PrintWriter gravaArquivo = new PrintWriter(arquivo);
+		
+		gravaArquivo.println(usuario+"-"+tipo+"-"+pontos);
+	}
+
+	public Object getPontos(String string, String string2) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

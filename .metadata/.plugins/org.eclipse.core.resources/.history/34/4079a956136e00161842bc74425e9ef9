@@ -1,0 +1,38 @@
+
+public class CaixaEletronico {
+	
+	ServicoRemoto servico;
+	Hardware hardware;
+	ContaCorrente conta;
+	
+
+	public void setServico(ServicoRemoto servico) {
+		this.servico = servico;
+	}
+
+	public void setHardware(Hardware hardware) {
+		this.hardware = hardware;
+	}
+
+	public String depositar(int valor) {
+		conta.setSaldo(valor);
+		return "Depósito recebido com sucesso";
+	}
+
+	public String saldo() {
+		return "O saldo é R$" + conta.getSaldo();
+	}
+
+	public String sacar(int valor) {
+		if(conta.getSaldo() < valor)
+			return "Saldo insuficiente";
+		return "Retire seu dinheiro";
+	}
+
+	public String login(String usuario, String senha) {
+		if(conta.getUsuario() == usuario &&	conta.getSenha() == senha)
+			return "Usuário autenticado";
+		return "Não foi possível autenticar ou suário";
+	}
+
+}

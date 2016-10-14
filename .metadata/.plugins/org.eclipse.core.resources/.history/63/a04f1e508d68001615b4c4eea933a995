@@ -1,0 +1,9 @@
+
+public class Tradutor {
+
+	public boolean estaVazio() {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+}

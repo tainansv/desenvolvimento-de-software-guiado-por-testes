@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\taina\Desktop\gamificacao"/>
+		<item value="C:\Users\taina\Desktop\semana3-tdd-coursera-ita"/>
+		<item value="C:\Users\taina\Desktop\Locadora Original"/>
+		<item value="C:\Users\taina\Downloads\_8f58241e8125a70112db8a44028479b3_ProjetoEclipseSABbyCRC-VersaoF04.zip"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\taina\Documents\Git\coursera\Programação java e desenvolvimento ágil\c2 - Desenvolvimento de software guiado por testes"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

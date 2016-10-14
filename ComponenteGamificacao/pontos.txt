@@ -1,0 +1,6 @@
+joão-moeda-15
+pedro-moeda-15
+maria-moeda-25
+joão-ouro-0
+joão-moeda-5
+pedro-ouro-5
